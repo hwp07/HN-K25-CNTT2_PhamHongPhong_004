@@ -175,6 +175,8 @@ FROM majors m
 WHERE  ad.result = 'Admitted'
 GROUP BY m.major_name;
 
+-- Hiển thị tên các thí sinh đã nộp hồ sơ vào từ 2 ngành học khác nhau trở lên.
+
 -- Tìm ngành học có mức học phí cao nhất trong hệ thống.
 SELECT major_name 
 FROM majors
